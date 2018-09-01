@@ -3,11 +3,11 @@ package gosec_test
 import (
 	"go/ast"
 
+	"github.com/golangci/gosec"
+	"github.com/golangci/gosec/rules"
+	"github.com/golangci/gosec/testutils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/securego/gosec"
-	"github.com/securego/gosec/rules"
-	"github.com/securego/gosec/testutils"
 )
 
 var _ = Describe("Issue", func() {

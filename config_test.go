@@ -3,9 +3,9 @@ package gosec_test
 import (
 	"bytes"
 
+	"github.com/golangci/gosec"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/securego/gosec"
 )
 
 var _ = Describe("Configuration", func() {

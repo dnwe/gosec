@@ -3,10 +3,10 @@ package gosec_test
 import (
 	"go/ast"
 
+	"github.com/golangci/gosec"
+	"github.com/golangci/gosec/testutils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/securego/gosec"
-	"github.com/securego/gosec/testutils"
 )
 
 var _ = Describe("Call List", func() {

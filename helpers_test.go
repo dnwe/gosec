@@ -5,9 +5,9 @@ import (
 	"os"
 	"regexp"
 
+	"github.com/golangci/gosec"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/securego/gosec"
 )
 
 var _ = Describe("Helpers", func() {
